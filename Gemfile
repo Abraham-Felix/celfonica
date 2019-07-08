@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
 
-require 'bundler/setup'
-
-
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
@@ -64,3 +61,4 @@ gem 'webpacker', '~> 4.x'
 gem 'bootsnap', '~>1.1.2'
 
 gem 'rails_12factor', group: :production
+gem 'bundler'
