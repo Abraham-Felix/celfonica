@@ -1,9 +1,16 @@
 source 'https://rubygems.org'
 
+require 'bundler/setup'
+
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.3.6'
+
+
+group :test, :production do
+    gem 'pg'
+end
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -55,8 +62,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'httparty'
 gem 'webpacker', '~> 4.x'
 gem 'bootsnap', '~>1.1.2'
-
-
-gem 'pg', '0.18.1', group: :production
 
 gem 'rails_12factor', group: :production
