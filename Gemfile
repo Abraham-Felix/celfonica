@@ -62,3 +62,6 @@ gem 'bootsnap', '~>1.1.2'
 
 gem 'rails_12factor', group: :production
 gem 'bundler'
+
+# sqlite3
+gem 'sqlite3', '~> 1.3', '>= 1.3.11'
