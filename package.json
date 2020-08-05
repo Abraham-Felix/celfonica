@@ -1,10 +1,16 @@
 {
-  "name": "website",
+  "name": "celfonica",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^4.0.7"
+    "@rails/webpacker": "^4.0.7",
+    "coffee-loader": "^1.0.0",
+    "coffeescript": "1.12.7",
+    "vue": "^2.6.11",
+    "vue-resource": "^1.5.1",
+    "vue-turbolinks": "^2.1.0"
   },
   "devDependencies": {
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.7.2"
   }
 }
