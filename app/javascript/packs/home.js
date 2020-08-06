@@ -35,7 +35,7 @@ console.log('Hello World from Home.js')
 
 import Vuetify from 'vuetify'
 import Vue from 'vue/dist/vue.esm'
-import Home from '../components/Home.vue'
+import BottomBar from '../components/BottomBar.vue'
 
 import '@mdi/font/css/materialdesignicons.css'
 
@@ -45,7 +45,7 @@ import('styles/vuetify.css');
 
 Vue.use(Vuetify)
 
-Vue.component('home', Home)
+Vue.component('bottombar', BottomBar)
 
 
 

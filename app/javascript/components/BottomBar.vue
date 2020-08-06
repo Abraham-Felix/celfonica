@@ -34,7 +34,7 @@ import Vuetify from 'vuetify'
 import Vue from 'vue/dist/vue.esm'
 
 export default {
-  name: 'home',
+  name: 'bottombar',
   data: () => ({
       links: [
         'Home',
