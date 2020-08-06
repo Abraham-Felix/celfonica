@@ -33,8 +33,10 @@
 
 console.log('Hello World from Home.js')
 
-import Vuetify from 'vuetify'
 import Vue from 'vue/dist/vue.esm'
+
+import Vuetify from 'vuetify'
+
 import BottomBar from '../components/BottomBar.vue'
 
 import '@mdi/font/css/materialdesignicons.css'
