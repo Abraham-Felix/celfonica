@@ -31,12 +31,24 @@
 //   <app></app>
 // </div>
 
+console.log('Hello World from Home.js')
+
+import Vuetify from 'vuetify'
+import Vue from 'vue/dist/vue.esm'
 import Home from '../components/Home.vue'
+
+import '@mdi/font/css/materialdesignicons.css'
+
+import('styles/vuetify.css');
+
+
+
+Vue.use(Vuetify)
 
 Vue.component('home', Home)
 
- import Vue from 'vue/dist/vue.esm'
- import App from '../app.vue'
+
+
 
  document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
