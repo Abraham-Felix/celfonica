@@ -2,6 +2,7 @@
   <v-footer
     color="primary lighten-1"
     padless
+    absolute
   >
     <v-row
       justify="center"
@@ -42,7 +43,7 @@ export default {
         'Team',
         'Services',
         'Blog',
-        'Contact Us',
+        'Contact US',
       ],
     }),
 }
