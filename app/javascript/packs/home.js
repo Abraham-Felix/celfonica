@@ -35,9 +35,13 @@ console.log('Hello World from Home.js')
 
 import Vue from 'vue/dist/vue.esm'
 
+import '../packs/application.js'
+
 import Vuetify from 'vuetify'
 
 import BottomBar from '../components/BottomBar.vue'
+
+import MainBody from '../components/Tweets.vue'
 
 import '@mdi/font/css/materialdesignicons.css'
 
@@ -48,15 +52,16 @@ import('styles/vuetify.css');
 Vue.use(Vuetify)
 
 Vue.component('bottombar', BottomBar)
-
+Vue.component('tweets', Tweets)
 
 
 
  document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
-    el: '[data-behavior="vue"]',
-  })
+    el: '[data-behavior="vue"]'
+  });
 });
+
 //
 //
 //
