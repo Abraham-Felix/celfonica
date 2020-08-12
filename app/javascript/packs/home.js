@@ -43,8 +43,6 @@ import BottomBar from '../components/BottomBar.vue'
 
 import MainBody from '../components/Tweets.vue'
 
-import '@mdi/font/css/materialdesignicons.css'
-
 import('styles/vuetify.css');
 
 
