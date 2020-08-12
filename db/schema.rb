@@ -12,10 +12,13 @@
 
 ActiveRecord::Schema.define(version: 2020_08_05_061745) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "documents", force: :cascade do |t|
     t.string "subject"
     t.text "body"
-    t.integer "state"
+    t.integer "state", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["state"], name: "index_documents_on_state"
