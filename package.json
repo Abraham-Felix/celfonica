@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^4.0.7",
+    "@zeit/next-css": "^1.0.1",
     "coffee-loader": "^1.0.0",
     "coffeescript": "1.12.7",
     "css-loader": "^4.2.1",
