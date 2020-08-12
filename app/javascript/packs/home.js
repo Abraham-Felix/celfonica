@@ -41,7 +41,7 @@ import Vuetify from 'vuetify'
 
 import BottomBar from '../components/BottomBar.vue'
 
-import MainBody from '../components/Tweets.vue'
+import Tweets from '../components/Tweets.vue'
 
 import('styles/vuetify.css');
 
