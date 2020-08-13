@@ -43,15 +43,18 @@ import BottomBar from '../components/BottomBar.vue'
 
 import Tweets from '../components/Tweets.vue'
 
+import Modal from '../components/Modal.vue'
+
 import('styles/vuetify.css');
 
 
 
 Vue.use(Vuetify)
 
+
 Vue.component('bottombar', BottomBar)
 Vue.component('tweets', Tweets)
-
+Vue.component('modal', Modal)
 
 
  document.addEventListener('DOMContentLoaded', () => {

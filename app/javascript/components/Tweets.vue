@@ -1,6 +1,6 @@
 <template>
   <div id="tweets">
-    <h1>Experience the view with Vue :)!</h1>
+    <h1>Tweet message - UI</h1>
     <div class="user">
       <div class="user-information">
         <div class="image-container">
@@ -54,6 +54,11 @@ export default {
 
 <style scoped>
 
+#tweets {
+ display: flex;
+ box-shadow: 0px 0px 9px -5px;
+}
+
   em {
     font-weight: bold;
   }
@@ -70,7 +75,7 @@ export default {
 
   h1 {
     padding: .75rem;
-    background: linear-gradient(45deg, #008aff, #00e36973);
+    background: linear-gradient(45deg, #4d80ff, #31d1ff);
     text-align: center;
     font-size: 2rem;
     font-weight: 900;
@@ -170,6 +175,12 @@ export default {
   .new-tweet button:hover {
     background-color: #5919d9;
   }
+
+  .tweets {
+    overflow: auto !important;
+    height: 300px !important;
+  }
+
 
 
 </style>

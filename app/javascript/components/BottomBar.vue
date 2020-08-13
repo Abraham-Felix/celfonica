@@ -23,7 +23,7 @@
         class="footer-div center primary lighten-2 py-4 text-center white--text"
         cols="12"
       >
-        {{ new Date().getFullYear() }} — <strong>Celfonica</strong>
+        {{ new Date().getFullYear() }} — <strong>Apesyntax</strong>
       </v-col>
     </v-row>
   </v-footer>
@@ -51,6 +51,7 @@ export default {
 <style scoped>
 
 
+
 .center {
     justify-content: center !important;
     text-align: -webkit-center;
@@ -61,12 +62,16 @@ export default {
 }
 
 .v-footer {
-  background: #02d5ff !important;
+  background: #101010 !important;
 }
 
 .footer-div {
-  background: #c3ff8dc7 !important;
+  background: #3f4042 !important;
   padding: 2px !important;
 }
+
+.row {
+    display: table-column-group !important;
+  }
 
 </style>
